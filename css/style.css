@@ -52,8 +52,12 @@ p {
 
 .main-container {
   height: calc(100vh - 3px);
-  width: 90%;
+  width: 95%;
   margin: auto;
+}
+
+.container-spacer {
+  margin: 80px 0 0 0;
 }
 
 /* ------ Intro Section ------ */
@@ -67,7 +71,6 @@ p {
 /* ------ Projects Section ------ */
 
 .projects-section {
-  margin: 100px 0;
 }
 
 .projects {
@@ -81,7 +84,7 @@ p {
   background-color: var(--tertiary);
   padding: 25px;
   border-radius: 30px;
-  width: 380px;
+  width: 365px;
   margin: 15px;
   -webkit-box-shadow: 12px 18px 30px 0px  rgba(var(--tertiary-rgb), 0.3);
   -moz-box-shadow: 12px 18px 30px 0px  rgba(var(--tertiary-rgb), 0.3);
@@ -147,7 +150,6 @@ p {
 /* ------ Skills Section ------ */
 
 .skills-section {
-  margin: 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,8 +168,13 @@ p {
 
 /* ------ Bio Section ------ */
 
+.info-section {
+  display: flex;
+  flex-direction: row;
+  margin: 60px 0;
+}
+
 .bio-section {
-  margin: 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,25 +199,17 @@ p {
   margin: 10px;
 }
 
-
-/* ------ Bottom Section ------ */
-
-.bottom-section {
-  display: flex;
-  flex-direction: row;
-  margin: 60px 0;
-}
-
 .fun-facts-section, .contact-section {
   width: 50%;
-  padding: 50px;
 }
 
 /* ------ Contact Section ------- */
 
 .contact-section {
-  /* display: flex;
-  flex-direction: column; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
