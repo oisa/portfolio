@@ -74,6 +74,14 @@ p {
   width: 80%;
 }
 
+.smile {
+  position: relative;
+  top: 2px;
+  left: 12px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 /* ------ Bio Section ------ */
 
 .info-section {
@@ -338,12 +346,12 @@ p {
 
 ::-moz-selection {
   color: var(--secondary);
-  background: rgba(var(--primary-rgb), 0.996);
+  background: rgba(var(--primary-rgb), 0.9);
 }
 
 ::selection {
   color: var(--secondary);
-  background: rgba(var(--primary-rgb), 0.996);
+  background: rgba(var(--primary-rgb), 0.9);
 }
 
 /* ------ Media Queries ------ */
