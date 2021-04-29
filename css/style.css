@@ -243,6 +243,81 @@ p {
   padding: 0 30px;
 }
 
+/* ------ Blinking Cursor ------- */
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  display: inline-block;
+  position: relative;
+  left: -9px;
+  color: #fff;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+.intro-section > span, .intro-section > span:hover {
+  padding-bottom: 0;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+/* ------ Random Word ------ */
+
+#random-word {
+  position: relative;
+  font-size: 50px;
+}
+
 
 /* ------ Utility ------ */
 
