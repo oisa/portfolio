@@ -35,6 +35,8 @@ h2, h3 {
 
 h1 {
   font-size: 48px;
+  position: relative;
+  left: -14px;
 }
 
 h2 {
