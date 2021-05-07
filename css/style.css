@@ -146,7 +146,7 @@ p {
 .bio-section > p {
   width: 65%;
   margin: 0 auto 20px auto;
-  line-height: 35px;
+  line-height: 25px;
 }
 
 
@@ -316,6 +316,7 @@ p {
 
 .contact-section > p {
   padding: 0 30px;
+  line-height: 25px;
 }
 
 .button > img {
@@ -324,6 +325,7 @@ p {
   width: 1.2rem;
   height: 1.2rem;
 }
+
 
 /* ------ Blinking Cursor ------- */
 
